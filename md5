@@ -1,0 +1,9 @@
+#! /usr/bin/php
+
+<?php
+
+if(count($argv) != 2){
+    die("Usage: md5 \"<string>\"\n");
+}
+print(md5($argv[1]));
+?>
